@@ -26,7 +26,7 @@ function runProgram(input) {
         console.log(solve(arr));
     }
 }
-if (process.env.USERNAME === "getsu") {
+if (process.env.USERNAME === "Ajit") {
     runProgram(`3
     8
     1 2 1 3 2 7 4 2

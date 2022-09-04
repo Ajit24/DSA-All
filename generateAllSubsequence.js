@@ -11,7 +11,7 @@ function runProgram(input) {
     let arr = newInput[1].trim().split("");
     subsequence("", arr, 0, arr.length - 1);
 }
-if (process.env.USERNAME === "getsu") {
+if (process.env.USERNAME === "Ajit") {
     runProgram(`4
     abcd`);
 } else {

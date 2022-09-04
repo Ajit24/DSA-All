@@ -12,7 +12,7 @@ function runProgram(input) {
 
     console.log(gp(n, r).toFixed(4));
 }
-if (process.env.USERNAME === "getsu") {
+if (process.env.USERNAME === "Ajit") {
     runProgram(`3 5`);
 } else {
     process.stdin.resume();

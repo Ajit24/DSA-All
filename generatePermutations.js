@@ -24,7 +24,7 @@ function runProgram(input) {
     let str = arr.join("");
     permutations(str, 0, str.length - 1);
 }
-if (process.env.USERNAME === "") {
+if (process.env.USERNAME === "Ajit") {
     runProgram(`3
     1 2 3`);
 } else {
